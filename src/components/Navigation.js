@@ -57,21 +57,15 @@ class Navigation extends Component {
                 </select>
                 </div>
 
-                <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12" style={{background:'#363636'}}>
                 <a style={{cursor:'pointer'}}>
                 <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'left',paddingTop:'0.5em'}}>
-                   SignUp
+                   SignUp | Login
                </h5>
                 </a>
                 
                 </div>
-                <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
-                <a style={{cursor:'pointer'}}>
-                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'left',paddingTop:'0.5em'}}>
-                   Login
-               </h5>
-               </a>
-                </div>
+              
             </div>
         );
     }

@@ -9,7 +9,7 @@ class ImageBody extends Component {
                 <img src={Image2}  alt="traffic" style={{width:'100%',backgroundSize:'cover',backgroundPosition:'center',height:'700px',marginRight:'auto'}}>
                 </img>
                 
-                <div className="search-bar" style={{opacity:'0.9',color:'white',position:'absolute',top:'50%',left:'50%',transform:'translate(-50%,-50%)',zIndex:'2',width:'100%',paddingTop:'15em'}}>
+                <div className="search-bar" style={{opacity:'0.9',color:'white',position:'absolute',top:'55%',left:'50%',transform:'translate(-50%,-50%)',zIndex:'2',width:'100%',paddingTop:'15em'}}>
                     <div className="container hide-on-small-and-down container-size" style={{background:'#000000',width:'100% !important' }}>
                         <div select-box style={{margin:'5px'}}>
                         <form acceptCharset="UTF-8" method="GET">

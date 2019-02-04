@@ -7,14 +7,15 @@ class Speciality extends Component {
                <div className="col-lg-12 col-md-4 col-sm-6" style={{float:'left',boxSizing:'border-box',padding:'0 07.5rem',minHeight:'1px'}}>
                     <div className="col-lg-12 col-md-12 col-sm-12">
                        
-                        <h5 className="col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:'6%',paddingTop:'2%',fontWeight:'700',fontSize:'2.2rem',lineHeight:'110%',fontFamily:'Montserrat, sans-serif'}}>
-                        <strong>
-                             <center>
+                        <h5 className="col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:'4%',paddingTop:'2%',fontWeight:'700',fontSize:'2.2rem',lineHeight:'110%',fontFamily:'Montserrat, sans-serif'}}>
+                    <strong>
+                        <center>
                         OUR SPECIALITY
-                            </center>
+                        </center>
                     </strong>
-                          </h5>
-                      
+                </h5>
+                       
+                       
                     </div>
 
                </div>

@@ -14,7 +14,7 @@ import Bike11 from './duke.png';
 class BikeInfo extends Component {
     render() {
         return (
-            <div className="row" style={{backgroundColor:'#eeeeee',marginBottom:'0 !important',paddingBottom:'35px !important',marginLeft:'auto',marginRight:'auto',display:'block',color:'rgba(0,0,0,0.87)'}}>
+            <div className="row" style={{marginRight:'auto',backgroundColor:'#eeeeee',marginBottom:'0 !important',paddingBottom:'35px !important',marginLeft:'auto',display:'block',color:'rgba(0,0,0,0.87)'}}>
                 <h5 className="col-lg-12 col-md-12 col-sm-12" style={{paddingTop:'2%',fontWeight:'700',fontSize:'2.2rem',lineHeight:'110%',fontFamily:'Montserrat, sans-serif'}}>
                     <strong>
                         <center>

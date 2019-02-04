@@ -6,7 +6,7 @@ import Search from './search.png';
 class Navigation extends Component {
     render() {
         return (
-            <div className="navigate" style={{height:'3.3em'}}>
+            <div className="navigate" style={{height:'3.3em',marginRight:'auto'}}>
                 <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12" style={{background:'#363636'}}>
                 <img alt="royalbrothers" id="logoimg" src={Logo} width="130px" height="33px" style={{display:'inline',marginTop:'9px',marginLeft:'0px',paddingLeft:'1em',paddingRight:'1em'}} />
                 </div>
@@ -29,7 +29,7 @@ class Navigation extends Component {
                 <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
                 <a style={{cursor:'pointer'}}>
                 <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'left',paddingTop:'0.5em'}}>
-                   Tariff
+                  Tariff
                </h5>
                 </a>
                 </div>
@@ -43,7 +43,7 @@ class Navigation extends Component {
                 </div>
 
                 <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
-                <select style={{paddingBottom:'0.5em',float:'left',width:'60px',marginTop:'14px',display:'inline',background:'#363636',color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',boxShadow:'none',border:'none'}}>
+                <select style={{width:'60px',marginTop:'14px',display:'inline',background:'#363636',color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',boxShadow:'none',border:'none'}}>
                 <option value="volvo">Menu</option>
                     <option value="saab">Blog</option>
                     <option value="opel">Rides</option>

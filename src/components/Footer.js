@@ -5,7 +5,7 @@ import RSLogo from './rsbig.png';
 class Footer extends Component {
     render() {
         return (
-            <div className="mainDiv" sytle={{display:'block',position:'relative',bottom:'0',paddingTop:'1.25em',color:'white'}}>
+            <div className="mainDiv" sytle={{display:'block',position:'relative',bottom:'0',paddingTop:'1.25em',color:'white',marginRight:'auto'}}>
                 <div className="row" style={{margin:'0',background:'#363636',position:'relative',textAlign:'justify',fontSize:'0.6em',color:'white',marginBottom:'0px'}}>
                     <div className="col-lg-4 col-md-4" style={{float:'left',boxSizing:'border-box',minHeight:'1px'}}>
                         <div className="footer-logo" style={{padding:'3em'}}>

@@ -5,7 +5,7 @@ import './Refer.css'
 class Refer extends Component {
     render() {
         return (
-            <div className="Refercomponent" style={{opacity:'0.8',background:'#363636',width:'100%',height:'1.4em',zIndex:998,paddingTop:'0.2em'}}>
+            <div className="Refercomponent" style={{opacity:'0.8',background:'#363636',width:'100%',height:'1.4em',zIndex:998,paddingTop:'0.2em',marginRight:'auto'}}>
                <h5 style={{margin:'0',fontSize:'14px',display:'inline',float:'right',color:'white',fontFamily:'Montserrat,sans-serif',fontWeight: 400,paddingRight:'0.5em'}}>
                 +91-7306747474
                 </h5>

@@ -6,7 +6,7 @@ class ImageBody extends Component {
     render() {
         return (
             <div style={{marginTop:'-20px'}}> 
-                <img src={Image2}  alt="traffic" style={{width:'100%',backgroundSize:'cover',backgroundPosition:'center',height:'500px',marginRight:'auto'}}>
+                <img src={Image2}  alt="traffic" style={{width:'100%',backgroundSize:'cover',backgroundPosition:'center',height:'700px',marginRight:'auto'}}>
                 </img>
                 
                 <div className="search-bar" style={{opacity:'0.9',color:'white',position:'absolute',top:'50%',left:'50%',transform:'translate(-50%,-50%)',zIndex:'2',width:'100%',paddingTop:'15em'}}>

@@ -6,14 +6,15 @@ class Speciality extends Component {
             <div className="row speciality" style={{marginLeft:'auto',marginRight:'auto',marginBottom:'20px'}}>
                <div className="col-lg-12 col-md-4 col-sm-6" style={{float:'left',boxSizing:'border-box',padding:'0 07.5rem',minHeight:'1px'}}>
                     <div className="col-lg-12 col-md-12 col-sm-12">
-                        <center>
-                        <h5 className="title" style={{fontWeight:'700 !important',fontSize:'1.64rem',lineHeight:'110%',fontFamily:'Montserrat, sans-serif'}}>
-                            <strong>
-                            OUR SPECIALITY
-                            </strong>
-                        </h5>
-                        </center>
                        
+                        <h5 className="col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:'6%',paddingTop:'2%',fontWeight:'700',fontSize:'2.2rem',lineHeight:'110%',fontFamily:'Montserrat, sans-serif'}}>
+                        <strong>
+                             <center>
+                        OUR SPECIALITY
+                            </center>
+                    </strong>
+                          </h5>
+                      
                     </div>
 
                </div>

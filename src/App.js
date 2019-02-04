@@ -10,6 +10,7 @@ import Speciality from './components/Speciality';
 import BikeInfo from './components/BikeInfo';
 import Sponsers from './components/Sponsers';
 import Footer from './components/Footer';
+import TestNav from './components/TestNav';
 
 
 class App extends Component {
@@ -17,13 +18,14 @@ class App extends Component {
     return (
       <div className="App">
       <Refer/>
-      <Navigation/>
+      <TestNav/>
       <ImageBody/>
       <Info/>
       <Speciality/>
       <BikeInfo/>
       <Sponsers/>
       <Footer/>
+      <TestNav/>
       </div>
     );
   }

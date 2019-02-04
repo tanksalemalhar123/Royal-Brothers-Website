@@ -18,24 +18,32 @@ class Navigation extends Component {
                     <option value="audi">Bikes in ..</option>
                 </select>
                 </div>
-                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12" style={{background:'#363636'}}>
+                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12" style={{background:'#363636'}}>
                 <a style={{cursor:'pointer'}}>
-                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'right',paddingTop:'0.5em'}}>
-                   Tariff
+                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'left',paddingTop:'0.5em'}}>
+                   
                </h5>
                </a>
                 </div>
 
                 <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
                 <a style={{cursor:'pointer'}}>
-                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'right',paddingTop:'0.5em'}}>
+                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'left',paddingTop:'0.5em'}}>
+                   Tariff
+               </h5>
+                </a>
+                </div>
+
+                <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
+                <a style={{cursor:'pointer'}}>
+                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'left',paddingTop:'0.5em'}}>
                    <img alt="search" src={Search} style={{width:'16px',height:'16px'}}/>Search
                </h5>
                 </a>
                 </div>
 
                 <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
-                <select style={{width:'60px',marginTop:'14px',display:'inline',background:'#363636',color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',boxShadow:'none',border:'none'}}>
+                <select style={{paddingBottom:'0.5em',float:'left',width:'60px',marginTop:'14px',display:'inline',background:'#363636',color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',boxShadow:'none',border:'none'}}>
                 <option value="volvo">Menu</option>
                     <option value="saab">Blog</option>
                     <option value="opel">Rides</option>
@@ -51,7 +59,7 @@ class Navigation extends Component {
 
                 <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12" style={{background:'#363636'}}>
                 <a style={{cursor:'pointer'}}>
-                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'right',paddingTop:'0.5em'}}>
+                <h5 style={{color:'white',fontFamily:'Montserrat,sans-serif',fontSize:'12px',float:'left',paddingTop:'0.5em'}}>
                    SignUp
                </h5>
                 </a>

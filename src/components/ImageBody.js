@@ -14,12 +14,12 @@ class ImageBody extends Component {
                         <div select-box style={{margin:'5px'}}>
                         <form acceptCharset="UTF-8" method="GET">
                             <div className="col-lg-12 col-sm-12 col-md-12">
-                                <div  className="col-lg-3 col-md-3 col-sm-12 inputfield1" style={{position:'relative',marginTop:'1rem',display:'inline'}}>
-                                <input placeholder="PickUp Date" type="text" className="picker-input" style={{color:'white',backgroundColor:'transparent',border:'none',borderBottom:'1px solid #9e9e9e',borderRadius:'0', outline:'none',height:'3rem',fontSize:'2rem',padding:'0',boxShadow:'none',boxSizing:'content-box',transition:'0.3s'}}/>
+                            <div className="col-lg-3 col-md-3 col-sm-12" style={{position:'relative',marginTop:'1rem',display:'inline'}}>
+                                <input placeholder="Pickup Date" type="text" className="picker-input" style={{color:'white',backgroundColor:'transparent',border:'none',borderBottom:'1px solid #9e9e9e',borderRadius:'0', outline:'none',height:'3rem',fontSize:'2rem',margin:'0 0 20px 0',padding:'0',boxShadow:'none',boxSizing:'content-box',transition:'0.3s'}}/>
                                 
                                 </div>
 
-                                <div className="col-lg-3 col-md-3 col-sm-12 inputfield2" style={{position:'relative',marginTop:'1rem',display:'inline'}}>
+                                <div className="col-lg-3 col-md-3 col-sm-12" style={{position:'relative',marginTop:'1rem',display:'inline'}}>
                                 <input placeholder="Time" type="text" className="picker-input" style={{color:'white',backgroundColor:'transparent',border:'none',borderBottom:'1px solid #9e9e9e',borderRadius:'0', outline:'none',height:'3rem',fontSize:'2rem',margin:'0 0 20px 0',padding:'0',boxShadow:'none',boxSizing:'content-box',transition:'0.3s'}}/>
                                 
                                 </div>

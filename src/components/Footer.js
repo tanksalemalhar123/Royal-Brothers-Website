@@ -402,7 +402,7 @@ class Footer extends Component {
                         </div>
 
                     </div>
-                    <div className="col-lg-12 col-md-12 col-sm-12" style={{overflow:'hidden',display:'flex',alignItems:'center',padding:'0.6em 0', color:'white',background:'transparent'}}>
+                    <div className="col-lg-12 col-md-12 col-sm-12" style={{marginLeft:'1em',marginRight:'1em',overflow:'hidden',display:'flex',alignItems:'center',padding:'0.6em 0', color:'white',background:'transparent'}}>
                         <div className="copyright" style={{paddingBottom:'1em',paddingTop:'1.2em',boxSizing:'inherit',margin:'0 auto',maxWidth:'75em',fontWeight:'300',fontFamily:'Montserrat,sans-serif',fontSize:'2em'}}>
                         © Copyright 2019 Royalbison AutoRentals India Private Ltd. All rights reserved.
                         </div>
